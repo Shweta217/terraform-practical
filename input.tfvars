@@ -1,0 +1,13 @@
+key_pair = "training-accenture"
+availability_zones=["ap-south-1a","ap-south-1b"]
+private_subnet_cidr_block=["10.0.0.0/24","10.0.1.0/24"]
+public_subnet_cidr_block=["10.0.2.0/24","10.0.3.0/24"]
+public_subnet_names=["pub_subnet_1a","pub_subnet_1b"]
+private_subnet_names=["priv_subnet_1a","priv_subnet_1b"]
+vpc_cidr_block="10.0.0.0/16"
+public_rt_names=["pub_rt_1a","pub_rt_1b"]
+private_rt_names=["priv_rt_1a","priv_rt_1b"]
+ami           = "ami-06a0b4e3b7eb7a300"
+instance_type = "t2.micro"
+public_ec2_names=["pub_ec2_1a","pub_ec2_1b"]
+private_ec2_names=["priv_ec2_1a","priv_ec2_1b"]
